@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-      <NavLinks/>
+      {/* <NavLinks/>
       <ChatList/>
       <Chatbox/>
-      <Login/>
+      <Login/> */}
       <Register/>
     </>
   )
