@@ -3,7 +3,7 @@ import React from 'react'
 const NavLinks = () => {
   return (
     <div>
-      
+      navlinks
     </div>
   )
 }

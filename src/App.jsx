@@ -11,11 +11,16 @@ function App() {
 
   return (
     <>
-      {/* <NavLinks/>
+    <div className='flex'>
+<NavLinks/>
       <ChatList/>
       <Chatbox/>
-      <Login/> */}
-      <Register/>
+    </div>
+      <div className=' hidden'>
+        <Register/>
+      <Login/> 
+      
+      </div>
     </>
   )
 }
