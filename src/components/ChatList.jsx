@@ -48,7 +48,7 @@ const ChatList = () => {
           chat?.users?.map((user) => (
           <button key={user?.uid} className='flex justify-between items-start w-[100%] border-b border-b-1 border-[#a4b8b8] px-5 pb-2 pt-2'>
           <div className='flex items-start '>
-            <img src={user?.image} alt="" className='w-[40px] h-[40px] object-cover rounded-full' />
+            <img src={user?.image} alt="" className='w-[40px] h-[40px] object-cover rounded-full mr-4' />
             <span>
               <h2 className='p-0 font-semibold text-[#a3a3a3] text-left text-[17px]'>{user?.fullName}</h2>
               <p className='p-0 font-light text-[#a3a3a3] text-left text-[17px]'>{user?.message}</p>
